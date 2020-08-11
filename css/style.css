@@ -73,10 +73,17 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    border: .3cm;
 }
 .text-center{
     text-align: center;
     margin: auto;
+    
+}
+.text-left{
+    text-align: left;
+    margin: auto;
+    
 }
 .bg-light{
     background: #fff;
