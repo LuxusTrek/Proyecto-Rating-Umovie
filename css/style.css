@@ -73,8 +73,9 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    border: .3cm;
+    
 }
+
 .text-center{
     text-align: center;
     margin: auto;
@@ -93,12 +94,18 @@ body{
     background: #2f3542;
     color: #fff;
 }
+.bg-Mdark{
+    background: #3C3837;
+    color: #fff;
+}
 .ideas{
     padding: 1rem 0;
 }
 .footer{
     padding: 2.2rem;
 }
+
+
 @media(max-width: 560px){
     .header::after{
         height: 50vh;
