@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css\global.css">
-    
+    <!--fuente-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <!--Google-->
+    <script src="https://apis.google.com/js/api:client.js"></script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="scripts\googlebutton.js"></script>
     <meta name="google-signin-client_id" content="165414458909-dtip83puhgqmpjq9smk13ldm5ttmgp7c.apps.googleusercontent.com">
 
     <title>Rating Umovies</title>
+    
 </head>
 
 <body>
@@ -37,7 +42,13 @@
                     <div class="fb-login-button form-group" data-size="medium" data-button-type="continue_with" data-layout="rounded" data-auto-logout-link="false" data-use-continue-as="false" data-width="">
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
-                    
+                    <div id="gSignInWrapper">
+                      <span class="label">Sign in with:</span>
+                      <div id="customBtn" class="customGPlusSignIn">
+                        <span class="icon"></span>
+                        <span class="buttonText">Google</span>
+                      </div>
+                    </div>
                   </form>
             </section>
         </section>
