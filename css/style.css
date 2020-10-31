@@ -69,7 +69,11 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
-
+.grid-4{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 20px;
+}
 .grid-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
